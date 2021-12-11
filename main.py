@@ -29,7 +29,7 @@ def main():
         for event in pygame.event.get():
 
             # Quit even
-            if event.type = pygame.QUIT:
+            if event.type == pygame.QUIT:
                 run = False
         
 # Only run game when exectuted directly
